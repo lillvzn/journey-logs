@@ -27,7 +27,7 @@ So here I am, once again starting my journey in web development. But this time I
 
 ## Day 01
 
-First day is a breeze, well it always is. I spent around 4 hours to regain lost knowledge on HTML adn got my hands dirty with some beginner projects. Here's what I learnt:
+Day 1 was chill, it always is. Here's what I learnt:
 
 **HTML fundamentals**
 
@@ -71,8 +71,35 @@ First day is a breeze, well it always is. I spent around 4 hours to regain lost 
         <div> <!-- div tag is used instead of article when content isn't semantically related -->
         </div>
 
+        <aside> Extra content in a page </aside>
+
         <footer> Footer of the webpage </footer>
     </body>
 </html>
 
 ```
+
+**CSS fundamentals**
+
+```
+inline:
+    <h1 style="color:blue;">
+
+internal:
+    <style>
+        h1 {
+            color: blue;
+        }
+    </style>
+
+external: (different stylesheet)
+    h1 {
+        color: blue;
+    }
+```
+
+**class**: can be repeated throughout the file
+`<p class="class-name"> Some text </p>`
+
+**id**: can be used only once (rarely used)
+`<p id="id-name"> Some text </p>`
