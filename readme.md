@@ -23,6 +23,8 @@ So here I am, once again starting my journey in web development. But this time I
 
 **THIS IS REDEMPTION!**
 
+#### [Top](#table-of-contents)
+
 ---
 
 ## Day 01
@@ -103,3 +105,9 @@ external: (different stylesheet)
 
 **id**: can be used only once (rarely used)
 `<p id="id-name"> Some text </p>`
+
+#### [Top](#table-of-contents)
+
+---
+
+## Day 02
