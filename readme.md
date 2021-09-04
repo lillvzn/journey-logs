@@ -1,7 +1,5 @@
 # Daily Logs
 
----
-
 #### Table of contents
 
 - [Introduction](#introduction)
@@ -32,6 +30,6 @@ First day is a breeze, well it always is. I spent around 4 hours to regain lost 
 **HTML fundamentals**
 
     1. What is HTML
-    2. What are tags adn attributes
+    2. What are tags and attributes
     3. What is symantic HTML and why use it
     4. header, article, div, p, a, footer, img etc
