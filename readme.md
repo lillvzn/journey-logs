@@ -4,6 +4,11 @@
 
 - [Introduction](#introduction)
 - [Day 01](#day-01)
+- [Day 02](#day-02)
+
+---
+
+**To check out actual progress, hit: https://github.com/daemonslayer/softwareDevelopment-bootcamp**
 
 ---
 
@@ -111,3 +116,80 @@ external: (different stylesheet)
 ---
 
 ## Day 02
+
+Explored a bunch of stuff today. CSS is huge TBH, it's quite interesting tho. Priorities, declarations, decorators etc. Here's what I learnt:
+
+**HTML extended**
+
+```
+<p class="class-name second-class-name"> some text </p>
+<!-- multiple classes can be added to a tag -->
+<!-- but only one ID per element is possible -->
+```
+
+**More CSS fundamentals**
+
+    Recap
+
+    Types: Inline, Internal, External
+    Priority: H to L -->  !important > inline CSS > ID > class/pseudo-class > element selector > universal
+
+```
+
+- { /_ universal declaration _/
+  /_ ALWAYS INCLUDE THIS IN STYLESHEETS _/
+  padding: 0;
+  margin: 0;
+  }
+
+.class-name {
+property: value;
+}
+
+#id-name {
+property: value;
+}
+
+HTML-element {
+property: value;
+}
+
+tag:link { /_ pseudo class, same applies to classes and ids _/
+property: value;
+}
+
+tag::after { /\* pseudo element, same applies to classes and ids
+property: value;
+}
+
+.class-name {
+position: absolute; /_ absolute position wrt that class _/
+top: 0;
+right: 0;
+/_ shows the element at top right position in class-name box _/
+}
+
+.class-name {
+display: block; /_ displays as block element, one line after the other _/
+display: inline; /_ same line _/
+display: inline-block; /_ displays inline elements as block container _/
+
+    /*
+    inline elements cannot have height, width properties (includes padding margin etc)
+    block elements can take such properties
+    */
+
+}
+
+.class-name > ul > li:a:link:first-child {
+property: value;
+/_ property applied to first element (a tag) in li in ul of class-name _/
+}
+
+```
+
+#### [Top](#table-of-contents)
+
+---
+
+## Day 03
