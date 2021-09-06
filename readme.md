@@ -5,6 +5,7 @@
 - [Introduction](#introduction)
 - [Day 01](#day-01)
 - [Day 02](#day-02)
+- [Day 03](#day-03)
 
 ---
 
@@ -193,3 +194,100 @@ property: value;
 ---
 
 ## Day 03
+
+Today was banging! More CSS. And a lot more confusing challenges, but I came through.
+Here's what I learnt:
+
+```
+Summary: -> CSS layouts:
+         Float (older method to create layouts)
+         FlexBox (1-D layouts)
+         Grid (2-D layouts)
+```
+
+**More CSS**
+
+```
+/* LAYOUT: FLOATS */
+
+.class-name {
+    float: left/right;
+    /* a method to create layouts, not really used these days */
+    /* loads of manual labour */
+}
+
+.clearfix::after { /* used as a hack to avoid float element overflow */
+    clear: both;
+    content: "";
+    display: block/inline-block;
+}
+
+/* LAYOUT: FLEXBOX */
+
+.class-name {
+    display: flex;
+    /* used instead of FLOAT as there is not necessity to define manual px */
+
+    align-items: value;
+    /* aligns items inside container (all div elements) with given property-value */
+
+    justify-content: value;
+    /* align flex items to given property-value */
+}
+
+.class-name {
+    /* default values */
+    flex-grow: 0; /* sets flex item's size */
+    flex-shrink: 1; /* to overflow content, use 0 */
+    flex-basis: auto; /* initial main size of flex item */
+
+    flex: flex-grow flex-shrink flex-basis;
+    flex: 1 0 250px;
+
+    gap: value; /* gives gap between layouts */
+}
+
+/* LAYOUT: CSS GRID */
+
+.class-name {
+    display: grid;
+    /* used to create 2-d layouts */
+
+    grid-template-columns: 250px 250px 250px;
+    /* create 3 columns of each 250px */
+
+    grid-template-rows: 250px 300px;
+    /* create 2 rows of 250px and 300px each */
+
+    /* can also be defined as below */
+
+    grid-template-rows/columns: 1fr 1fr 1fr;
+    /* fr short for fraction, used to define size of the layout in grid */
+    /* this can also be written as */
+    grid-template-rows-columns: repeat(3, 1fr);
+}
+
+.class-name {
+    /* some grid properties */
+    column-gap: value in px;
+    row-gap: value in px;
+
+    align-items: start/center...;
+    /* aligns items in grid to given value */
+
+    grid-row: 1 / -1;
+    /* layout content flows from start end of the given container via row */
+
+    grid-column: 1 / -1;
+    /* same as above via column */
+    /* these can also be used for shifting layouts inside a grid */
+}
+```
+
+There are so many others but these are some of the most used ones in CSS world. The important takeaway here is not how many properties you know but how many of them have you understood in a correct way.
+
+#### [Top](#table-of-contents)
+
+---
+
+## Day 04
