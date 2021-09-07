@@ -6,6 +6,7 @@
 - [Day 01](#day-01)
 - [Day 02](#day-02)
 - [Day 03](#day-03)
+- [Day 04](#day-04)
 
 ---
 
@@ -291,3 +292,56 @@ There are so many others but these are some of the most used ones in CSS world. 
 ---
 
 ## Day 04
+
+Quite an interesting day today. Learnt design properties like typography, colors, image and illustrations, white-spaces, shadows, icons, border designs and much more.
+
+Learning UX design patterns and importance of UI/UX was fun too.
+
+It's important to know how to create an excellent looking and functional/logical webpage. Always avoid cluttering elements, keep it minimal yet add in a bit of touch (so called _wow factor_) so that the users feel welcome and not bored.
+
+Use colors that are matching background and text-colors. Make sure the element/ component you want the user to look at is distinguished in a color that's not background or text-color.
+
+Try and use minimal values for shadows. For rounded edges on buttons or boxes, use px levels more than their defaults (_if the box is rectangle_). If it's a square, use 50%.
+
+**CSS in design**
+
+```
+
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* Using definitive spacing and font-sizes will give less options to explore which inturn provide consistancy in usage */
+
+
+.class-name {
+    border-radius: 5px;
+    /* creates curves around an element */
+
+    font-family: serif/sans-serif;
+    /* depending on website personality, use font-families */
+
+    line-height: value;
+    /* the larger the font-size is, the less the line height */
+
+    stroke: color-value;
+    fill: color-value;
+    /* coloring icons */
+
+    box-shadow: 0px 0px 0px 0px color;
+    /* horizontal vertical blur-value scale (optional) color-value */
+}
+
+/* always use better color contrast ratios wrt background color and font-color/main color */
+
+/* always create a hierarchy in the page, more priority towards a component you want the user to notice */
+```
+
+#### [Top](#table-of-contents)
+
+---
+
+## Day 05
