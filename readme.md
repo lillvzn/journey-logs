@@ -7,6 +7,7 @@
 - [Day 02](#day-02)
 - [Day 03](#day-03)
 - [Day 04](#day-04)
+- [Day 05](#day-05)
 
 ---
 
@@ -345,3 +346,76 @@ FONT SIZE SYSTEM (px)
 ---
 
 ## Day 05
+
+Building components and layout patterns was amazing. Went through topics like grid, flex, overflow and so much more.
+
+Components like accordion, carousel, pagination, heros and tables were learnt along with some new HTML tags. Damn there's so much!
+
+**Some HTML**
+
+```
+<blockquote> Used for quotes </blockquote>
+
+<table> <!-- To create tables -->
+    <thead> <!-- head -->
+        <tr> <!-- row -->
+            <th> Some text </th> <!-- header row data -->
+            <th> Some text </th>
+        </tr>
+    </thead>
+
+    <tbody> <!-- body of table -->
+        <tr>
+            <td> Some other text </td> <!-- normal data -->
+            <td> Some other text </td>
+        </tr>
+    </tbody>
+</table>
+
+
+<main> represents main content of the body </main>
+<menu> represents a menu </menu>
+
+```
+
+**CSS fun**
+
+```
+
+.class-name {
+display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    /* coulmns are divided to 3 columns with equal spaces */
+
+    grid-template-rows: 1fr 2fr;
+    /* rows divided to 2 with one getting twice the size of the other */
+
+}
+
+.class-name {
+overflow: scroll;
+/_ set the overflowing content to scroll _/
+}
+
+.class-name {
+height: 100vh;
+/_ view port height, set the content to available viewport dimensions _/
+}
+
+.class-name {
+transform: translate(-50%, 36px);
+/_ transforms in-relation to self _/
+
+    top: 50%;
+    /* transforms in-relation to parent element */
+
+}
+
+```
+
+#### [Top](#table-of-contents)
+
+---
+
+## Day 06
