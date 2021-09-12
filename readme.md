@@ -418,4 +418,6 @@ transform: translate(-50%, 36px);
 
 ---
 
-## Day 06
+## Day 06, 07, 08 and 09
+
+I've been working on some projects using what I've learnt, will update here soon.
