@@ -421,3 +421,7 @@ transform: translate(-50%, 36px);
 ## Day 06, 07, 08 and 09
 
 I've been working on some projects using what I've learnt, will update here soon.
+
+I will stop this here and continue to generalise everything in a form of a memoir or a book for the future.
+
+Thank you
